@@ -1,0 +1,22 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "\"My react practice project\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendkhaleashutosh/react-practice.git"
+  },
+  "author": "Ashutosh Bendkhale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendkhaleashutosh/react-practice/issues"
+  },
+  "homepage": "https://github.com/bendkhaleashutosh/react-practice#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
