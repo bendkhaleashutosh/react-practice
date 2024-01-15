@@ -4,7 +4,9 @@
   "description": "\"My react practice project\"",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,14 @@
   },
   "homepage": "https://github.com/bendkhaleashutosh/react-practice#readme",
   "devDependencies": {
-    "parcel": "^2.11.0"
-  }
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserkist":[
+    "last 2 versions"
+  ]
 }
